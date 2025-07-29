@@ -25,27 +25,7 @@
 
 <br/>
 
-**Send an HTTP GET request to '/hello' endpoint using any of the two methods**
+**Send an HTTP GET request to '/' endpoint using any of the two methods**
 
 - **Browser or REST client**
-  <br/>```http://localhost:8080/hello```
-
-
-- **cURL**
-  <br/>```curl --request GET 'http://localhost:8080/hello'```
-
-
-## How to Run Unit Test Cases
-
-**Run the test cases using any of the commands mentioned below**
-
-> **Note:** These commands need to run inside the root folder of this project i.e inside the **spring-boot-hello-world** folder
-
-- **To run all the test cases**
-  <br/>```mvn test```
-
-
-- **To run a particular test class**
-  <br/>```mvn -Dtest=HelloWorldControllerTest test```
-  <br/>or
-  <br/>```mvn -Dtest=HelloWorldApplicationTests test```
+  <br/>```http://localhost:7000```
